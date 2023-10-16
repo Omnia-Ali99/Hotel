@@ -1,0 +1,32 @@
+php artisan make:migration create_hotels_table
+php artisan make:factory HotelFactory
+php artisan make:model Hotel -m
+
+php artisan make:migration create_cities_table
+php artisan make:factory CityFactory
+php artisan make:model City
+
+
+php artisan make:migration create_rooms_table
+php artisan make:factory RoomFactory
+php artisan make:model Room
+
+php artisan make:migration create_Type_rooms_table
+php artisan make:factory Type_roomFactory
+php artisan make:model Type_room
+
+php artisan make:migration create_Booking_details_table
+php artisan make:model Booking_detail
+php artisan make:factory Booking_detailFactory
+
+php artisan make:model Booking
+
+php artisan make:model Bill
+php artisan make:factory BillFactory
+
+
+php artisan make:factory BookingFactory
+php artisan make:model Booking
+
+php artisan make:factory AdminFactory
+php artisan make:model Admin
